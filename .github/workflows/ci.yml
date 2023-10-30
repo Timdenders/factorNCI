@@ -21,6 +21,12 @@ jobs:
       with:
         python-version: 3.9
 
+    - name: Install dependencies
+      run: |
+        pip install pytest
+        pip install poetry
+        pip install coverage
+
     - name: Run tests
       run: pytest --cov=refactornci tests/test_dll.py tests/test_node.py
 
