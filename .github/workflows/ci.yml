@@ -29,7 +29,9 @@ jobs:
         pip install pytest-cov
 
     - name: Run tests
-      run: pytest --cov=refactornci tests/test_dll.py tests/test_node.py
+      run: |
+        cd refactorNCI/refactornci/
+        pytest --cov=refactornci tests/test_dll.py tests/test_node.py
 
     - name: Run linter
       run: poetry run flake8
