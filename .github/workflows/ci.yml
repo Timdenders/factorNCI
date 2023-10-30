@@ -43,5 +43,5 @@ jobs:
       working-directory: ./refactorNCI/
 
     - name: Generate coverage report
-      run: coverage html
+      run: coverage report
       working-directory: ./refactorNCI/
