@@ -5,9 +5,11 @@ description = ""
 authors = ["Timothy D. Enders <104176445+Timdenders@users.noreply.github.com>"]
 readme = "README.md"
 
+[tool.poetry.dev-dependencies]
+flake8 = "^6.1.0"
+
 [tool.poetry.dependencies]
 python = "^3.10"
-flake8 = "^6.1.0"
 coverage = "^7.3.2"
 
 [build-system]
