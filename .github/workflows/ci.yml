@@ -26,6 +26,7 @@ jobs:
         pip install pytest
         pip install poetry
         pip install coverage
+        pip install pytest-cov
 
     - name: Run tests
       run: pytest --cov=refactornci tests/test_dll.py tests/test_node.py
