@@ -1,7 +1,7 @@
 import sys
-sys.path.append("/workspaces/factorNCI/refactorNCI/refactornci")
+sys.path.append("/factorNCI/refactorNCI/refactornci")
 from refactornci.node import Node
-from dll import DoublyLinkedList
+from refactornci.dll import DoublyLinkedList
 
 
 class TestDoublyLinkedList:
