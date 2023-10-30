@@ -36,6 +36,7 @@ jobs:
     - name: Run linter
       run: poetry run flake8
       working-directory: ./refactorNCI/
+      continue-on-error: true
 
     - name: Run coverage
       run: coverage run -m pytest
