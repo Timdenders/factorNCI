@@ -1,6 +1,6 @@
 import sys
 sys.path.append("/factorNCI/refactorNCI/refactornci")
-from node import Node
+from refactornci.node import Node
 
 
 class TestNode:
